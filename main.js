@@ -1,0 +1,12 @@
+canvas=document.getElementById("mycanvas");
+ctx=canvas.getcontext("2d");
+ctx.beginPath();
+ctx.strokestyle="grey";
+ctx.lineWidth="4";
+ctx.rect(150,143,430,200);
+ctx.strokestyle();
+ctx.beginPath();
+ctx.strokestyle="blue";
+ctx.lineWidth="5";
+ctx.arc(250,210,0,2*Math.PI);
+ctx.strokestyle();
